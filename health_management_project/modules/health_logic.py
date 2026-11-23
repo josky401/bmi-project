@@ -9,14 +9,7 @@
 # - 본인 수정: (직접 고친 부분이 있으면 적기)
 # - 사용한 사람: 조하늘 (202611844)
 # - 날짜: 2026-11-24
-"""health_logic.py - 모듈2: 비즈니스 로직 (핵심 규칙 및 CRUD)
 
-파일 위치와 입출력은 모듈1(health_db.py)의 HealthDB가 담당한다 (data/ 폴더).
-    load_json()            -> 저장된 기록 목록 (기준 데이터)
-    load_csv(path=None)    -> 엑셀 일괄 등록용 CSV 기록 목록
-    save_data(records)     -> JSON·CSV·TXT·Pickle 저장 성공 여부
-기록 형식(dict): id_num, name, birth_year, gender, height, weight, bmi, obesity_status
-"""
 from datetime import date
 
 try:
